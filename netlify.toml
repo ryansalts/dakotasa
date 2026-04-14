@@ -2,8 +2,12 @@
   command = "node build.js"
   publish = "."
 
-# Tells Netlify to serve index.html for the root
 [[redirects]]
-  from = "/"
-  to = "/index.html"
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/admin/"
+  to = "/admin/index.html"
   status = 200

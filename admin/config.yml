@@ -6,6 +6,7 @@ backend:
   name: github
   repo: ryansalts/dakotasa
   branch: main
+  app_id: Ov23lillAuDBNbxn30QS
 
 media_folder: "assets"
 public_folder: "assets"

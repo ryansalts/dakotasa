@@ -3,7 +3,8 @@
 # To test locally, add `local_backend: true` at the top and run `npx decap-server`
 
 backend:
-  name: git-gateway
+  name: github
+  repo: ryansalts/dakotasa
   branch: main
 
 media_folder: "assets"

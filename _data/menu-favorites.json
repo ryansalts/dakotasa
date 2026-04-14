@@ -1,9 +1,29 @@
 {
   "favorites": [
-    { "name": "The Wings", "desc": "12 roasted wings, sweet chili sauce", "price": "$19.99" },
-    { "name": "Pork Queso", "desc": "Cream cheese, pork sausage, jalapeño, tomato. With chips or pork rinds", "price": "$15.99" },
-    { "name": "Chips-N-Salsa", "desc": "Warm chips, red & green homemade salsa", "price": "$5.99" },
-    { "name": "Dressed Pork Rinds", "desc": "Valentina salsa, Cotija cheese, fresh lime", "price": "$8.99" },
-    { "name": "Shishitos & Sausage", "desc": "Kiolbassa sausage, shishito peppers, garlic oil, coarse salt", "price": "$20.99" }
+    {
+      "name": "The Wings",
+      "desc": "12 roasted wings, sweet chili sauce",
+      "price": "$10.00"
+    },
+    {
+      "name": "Pork Queso",
+      "desc": "Cream cheese, pork sausage, jalapeño, tomato. With chips or pork rinds",
+      "price": "$15.99"
+    },
+    {
+      "name": "Chips-N-Salsa",
+      "desc": "Warm chips, red & green homemade salsa",
+      "price": "$5.99"
+    },
+    {
+      "name": "Dressed Pork Rinds",
+      "desc": "Valentina salsa, Cotija cheese, fresh lime",
+      "price": "$8.99"
+    },
+    {
+      "name": "Shishitos & Sausage",
+      "desc": "Kiolbassa sausage, shishito peppers, garlic oil, coarse salt",
+      "price": "$20.99"
+    }
   ]
 }

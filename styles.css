@@ -286,7 +286,7 @@ section { padding: 90px 48px; }
 .manifesto::after {
   content: '';
   position: absolute; inset: 0;
-  background-image: url('assets/dakota-lawn1.jpg');
+  background-image: url('assets/dakota-lawn1.webp');
   background-size: cover;
   background-position: center 40%;
   opacity: 0.22;

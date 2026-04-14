@@ -381,4 +381,22 @@
 }
 .nav-burger:hover span { background: #c8e8e4; }
 .nav-burger.is-open span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
-.nav-burger.is-open span:nth-child(2) { opacity: 0; transform: s
+.nav-burger.is-open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.nav-burger.is-open span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+</style>
+
+  <script src="scripts.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>

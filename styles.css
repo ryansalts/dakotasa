@@ -744,7 +744,9 @@ html, body {
   body { padding-top: 54px; }
   .nav-links { display: none; }
   .nav-burger { display: flex; }
-  .nav-links.nav-open { display: flex; flex-direction: column; position: fixed; top: 54px; left: 0; right: 0; background: var(--bg-dark); padding: 12px 0; z-index: 999; }
+  .nav-links.nav-open { display: flex; flex-direction: column; position: fixed; top: 54px; left: 0; right: 0; background: var(--near-black); border-bottom: 2px solid var(--teal); padding: 8px 0 16px; z-index: 999; box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
+  .nav-links.nav-open li { list-style: none; }
+  .nav-links.nav-open a { padding: 12px 24px; border-bottom: none; margin-bottom: 0; color: rgba(244,239,228,0.7); font-size: 13px; letter-spacing: 0.2em; }
 
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .hero-left { padding: 56px 24px 40px; }

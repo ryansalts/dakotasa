@@ -1,0 +1,28 @@
+{
+  "press": [
+    {
+      "source": "KSAT",
+      "year": "2025",
+      "image": "assets/ksat-the-dakota.png",
+      "image_alt": "KSAT 2025 — The Dakota",
+      "body": "Featured on SA Live — why The Dakota is a true community staple on San Antonio's Eastside.",
+      "url": "https://www.expressnews.com/food/restaurants/article/san-antonio-icehouses-20314725.php"
+    },
+    {
+      "source": "Texas Monthly",
+      "year": "2022",
+      "image": "assets/texas-monthly-2022.webp",
+      "image_alt": "Texas Monthly 2022 — The Dakota",
+      "body": "Texas Monthly restaurant feature — the food, the vibe, and what makes The Dakota worth the drive.",
+      "url": "https://www.texasmonthly.com/restaurant/the-dakota-east-side-ice-house"
+    },
+    {
+      "source": "Texas Monthly",
+      "year": "2021",
+      "image": "assets/texas-monthly-2021.jpeg",
+      "image_alt": "Texas Monthly 2021 — The Dakota",
+      "body": "An earlier Texas Monthly nod — The Dakota earning its place among SA's best neighborhood spots.",
+      "url": "https://www.texasmonthly.com/restaurant/the-dakota-east-side-ice-house"
+    }
+  ]
+}

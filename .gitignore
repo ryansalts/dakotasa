@@ -1,0 +1,7 @@
+# Generated file — rebuilt by build.js on every deploy
+# Do not edit index.html directly; edit index.template.html instead
+index.html
+
+# Node (if you ever run build locally)
+node_modules/
+.DS_Store

@@ -1,0 +1,6 @@
+{
+  "weekly_events": [
+    { "day": "Every Tuesday", "name": "Belly Dancing", "detail": "with Karavan Studios · 7pm" },
+    { "day": "Every Thursday", "name": "Jazz Jam", "detail": "Live jazz session · 8pm" }
+  ]
+}

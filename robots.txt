@@ -1,0 +1,91 @@
+# robots.txt — The Dakota East Side Ice House
+# https://thedakotasa.com
+
+# ── Search engines ──────────────────────────────────────────────
+# Full access for all major search crawlers
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# ── AI discovery crawlers ────────────────────────────────────────
+# These crawlers power AI-assisted local search and discovery.
+# Allowing them means The Dakota can appear in AI-generated answers
+# for queries like "best icehouse San Antonio" or "live music eastside SA."
+
+# Perplexity — real-time AI search, high local discovery value
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI Overviews — appears above organic results for local queries
+User-agent: Google-Extended
+Allow: /
+
+# ChatGPT browsing and search
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Apple intelligence / Siri
+User-agent: Applebot-Extended
+Allow: /
+
+# You.com AI search
+User-agent: YouBot
+Allow: /
+
+# Cohere / enterprise AI
+User-agent: cohere-ai
+Allow: /
+
+# ── AI training scrapers — blocked ──────────────────────────────
+# These crawlers collect data for model training with no discovery
+# benefit in return. No local search value, block them.
+
+User-agent: CCBot
+Disallow: /
+
+# TikTok / ByteDance scraper — training only, no discovery value
+User-agent: Bytespider
+Disallow: /
+
+# Generic social media scrapers
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# Anthropic training crawler (distinct from Claude browsing/search)
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# ── General fallback ─────────────────────────────────────────────
+# Allow everything not explicitly addressed above.
+# Assets folder intentionally open — photo indexing supports
+# Google Images discovery and AI visual understanding of the venue.
+
+User-agent: *
+Allow: /
+
+# ── Sitemap ──────────────────────────────────────────────────────
+Sitemap: https://thedakotasa.com/sitemap.xml

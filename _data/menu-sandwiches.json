@@ -1,0 +1,8 @@
+{
+  "sandwiches": [
+    { "name": "Beefy Beefy", "desc": "Cornbread loaf, brisket, Swiss, jalapeños, mustard, balsamic glaze. With salad & chips", "price": "$17.99" },
+    { "name": "Briscuit Biskets", "desc": "2 flakey biscuits, chopped brisket, BBQ sauce, house pickles, red onion. With salad & chips", "price": "$17.99" },
+    { "name": "Italian Job", "desc": "Crusty bread, tomato sauce, salami, pepperoni, prosciutto, fresh mozzarella, basil. With salad & chips", "price": "$17.99" },
+    { "name": "Firenzi Dogs", "desc": "Two all-beef hot dogs, bacon, mayo, mustard, avocado salsa, jalapeños, Valentina", "price": "$17.99" }
+  ]
+}

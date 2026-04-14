@@ -1,0 +1,9 @@
+{
+  "draft_beer": [
+    { "name": "Modelo", "desc": "Crisp lager", "price": "—" },
+    { "name": "Michelob Ultra", "desc": "Light lager", "price": "—" },
+    { "name": "Bishop 5.6", "desc": "Local SA craft", "price": "—" },
+    { "name": "Bishop Bday", "desc": "Local SA craft", "price": "—" },
+    { "name": "Crackberry Cider", "desc": "Austin Eastciders", "price": "—" }
+  ]
+}

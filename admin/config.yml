@@ -1,0 +1,182 @@
+# ── Netlify CMS Config ────────────────────────────────────────────────────
+# Authentication is handled by Netlify Identity (email/password login)
+# To test locally, add `local_backend: true` at the top and run `npx decap-server`
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets"
+public_folder: "assets"
+
+collections:
+
+  - name: "hours"
+    label: "🕐 Hours"
+    files:
+      - label: "Opening Hours"
+        name: "hours"
+        file: "_data/hours.json"
+        fields:
+          - { label: "Monday",    name: monday,    widget: string }
+          - { label: "Tuesday",   name: tuesday,   widget: string }
+          - { label: "Wednesday", name: wednesday, widget: string }
+          - { label: "Thursday",  name: thursday,  widget: string }
+          - { label: "Friday",    name: friday,    widget: string }
+          - { label: "Saturday",  name: saturday,  widget: string }
+          - { label: "Sunday",    name: sunday,    widget: string }
+
+  - name: "events"
+    label: "🎵 Weekly Events"
+    files:
+      - label: "Weekly Events"
+        name: "weekly_events"
+        file: "_data/events.json"
+        fields:
+          - label: "Events"
+            name: "weekly_events"
+            widget: list
+            fields:
+              - { label: "Day Label",  name: day,    widget: string }
+              - { label: "Event Name", name: name,   widget: string }
+              - { label: "Detail",     name: detail, widget: string }
+
+  - name: "menu"
+    label: "🍕 Menu"
+    files:
+      - label: "Favorites"
+        name: "favorites"
+        file: "_data/menu-favorites.json"
+        fields:
+          - label: "Favorites"
+            name: "favorites"
+            widget: list
+            fields:
+              - { label: "Name",        name: name,  widget: string }
+              - { label: "Description", name: desc,  widget: string }
+              - { label: "Price",       name: price, widget: string }
+
+      - label: "Sandwiches"
+        name: "sandwiches"
+        file: "_data/menu-sandwiches.json"
+        fields:
+          - label: "Sandwiches"
+            name: "sandwiches"
+            widget: list
+            fields:
+              - { label: "Name",        name: name,  widget: string }
+              - { label: "Description", name: desc,  widget: string }
+              - { label: "Price",       name: price, widget: string }
+
+      - label: "Salads & Tacos"
+        name: "salads_tacos"
+        file: "_data/menu-salads.json"
+        fields:
+          - label: "Salads & Tacos"
+            name: "salads_tacos"
+            widget: list
+            fields:
+              - { label: "Name",        name: name,  widget: string }
+              - { label: "Description", name: desc,  widget: string }
+              - { label: "Price",       name: price, widget: string }
+
+      - label: "Pizza"
+        name: "pizza"
+        file: "_data/menu-pizza.json"
+        fields:
+          - label: "Pizza"
+            name: "pizza"
+            widget: list
+            fields:
+              - { label: "Name",        name: name,  widget: string }
+              - { label: "Description", name: desc,  widget: string }
+              - { label: "Price",       name: price, widget: string }
+
+      - label: "Draft Beer"
+        name: "draft_beer"
+        file: "_data/menu-beer.json"
+        fields:
+          - label: "Draft Beer"
+            name: "draft_beer"
+            widget: list
+            fields:
+              - { label: "Name",        name: name,  widget: string }
+              - { label: "Description", name: desc,  widget: string }
+              - { label: "Price",       name: price, widget: string }
+
+  - name: "press"
+    label: "📰 Press"
+    files:
+      - label: "Press & Recognition"
+        name: "press"
+        file: "_data/press.json"
+        fields:
+          - label: "Press Items"
+            name: "press"
+            widget: list
+            fields:
+              - { label: "Publication", name: source,    widget: string }
+              - { label: "Year",        name: year,      widget: string }
+              - { label: "Image file",  name: image,     widget: string, hint: "e.g. assets/texas-monthly-2022.webp" }
+              - { label: "Image Alt",   name: image_alt, widget: string }
+              - { label: "Description", name: body,      widget: text }
+              - { label: "Link URL",    name: url,       widget: string }
+
+  - name: "about"
+    label: "📖 About"
+    files:
+      - label: "About Section"
+        name: "about"
+        file: "_data/about.json"
+        fields:
+          - { label: "Paragraph 1",  name: para1,           widget: text }
+          - { label: "Paragraph 2",  name: para2,           widget: text }
+          - { label: "Paragraph 3",  name: para3,           widget: text }
+          - { label: "Pull Quote",   name: pull_quote,      widget: string }
+          - { label: "Quote Credit", name: pull_quote_cite, widget: string }
+
+  - name: "contact"
+    label: "📞 Contact Info"
+    files:
+      - label: "Contact Details"
+        name: "contact"
+        file: "_data/contact.json"
+        fields:
+          - { label: "Phone (display)",     name: phone,            widget: string, hint: "e.g. 210-375-6009" }
+          - { label: "Phone (digits only)", name: phone_link,       widget: string, hint: "e.g. 12103756009 — used for tel: links" }
+          - { label: "General Email",       name: email_general,    widget: string }
+          - { label: "Parties Email",       name: email_parties,    widget: string }
+          - { label: "Music Booking Email", name: email_music,      widget: string }
+          - { label: "Employment Email",    name: email_employment, widget: string }
+
+  - name: "social"
+    label: "🔗 Social Media"
+    files:
+      - label: "Social Links"
+        name: "social"
+        file: "_data/social.json"
+        fields:
+          - { label: "Facebook URL",    name: facebook,    widget: string }
+          - { label: "Instagram URL",   name: instagram,   widget: string }
+          - { label: "Twitter/X URL",   name: twitter,     widget: string }
+          - { label: "Yelp URL",        name: yelp,        widget: string }
+          - { label: "Google Maps URL", name: google_maps, widget: string }
+          - { label: "Spotify URL",     name: spotify,     widget: string }
+
+  - name: "hero"
+    label: "🖼️ Hero Images"
+    files:
+      - label: "Hero Images"
+        name: "hero"
+        file: "_data/hero.json"
+        fields:
+          - { label: "Background Image",    name: bg_image,     widget: string, hint: "e.g. assets/dakota-lawn.jpg" }
+          - { label: "Background Alt Text", name: bg_image_alt, widget: string }
+          - { label: "Side Photo 1",        name: photo1,       widget: string }
+          - { label: "Side Photo 1 Alt",    name: photo1_alt,   widget: string }
+          - { label: "Side Photo 2",        name: photo2,       widget: string }
+          - { label: "Side Photo 2 Alt",    name: photo2_alt,   widget: string }
+          - { label: "Side Photo 3",        name: photo3,       widget: string }
+          - { label: "Side Photo 3 Alt",    name: photo3_alt,   widget: string }
+          - { label: "Side Photo 4",        name: photo4,       widget: string }
+          - { label: "Side Photo 4 Alt",    name: photo4_alt,   widget: string }

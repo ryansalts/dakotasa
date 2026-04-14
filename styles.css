@@ -743,6 +743,8 @@ html, body {
   .nav { padding: 0 20px; position: fixed; top: 0; left: 0; right: 0; }
   body { padding-top: 54px; }
   .nav-links { display: none; }
+  .nav-burger { display: flex; }
+  .nav-links.nav-open { display: flex; flex-direction: column; position: fixed; top: 54px; left: 0; right: 0; background: var(--bg-dark); padding: 12px 0; z-index: 999; }
 
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .hero-left { padding: 56px 24px 40px; }

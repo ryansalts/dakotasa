@@ -7,7 +7,7 @@ backend:
   repo: ryansalts/dakotasa
   branch: main
   app_id: Ov23lillAuDBNbxn30QS
-  base_url: https://courageous-paprenjak-752b1c.netlify.app
+  base_url: https://dakota-oauth.ryansalts.workers.dev
 
 media_folder: "assets"
 public_folder: "assets"

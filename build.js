@@ -46,7 +46,7 @@ function menuItems(items) {
 // ── Hours ──────────────────────────────────────────────────────────────────
 
 const hoursPills = `
-  <div class="h-pill"><strong>Closed</strong><span>Monday</span></div>
+  <div class="h-pill"><strong>Monday</strong><span>${esc(hours.monday)}</span></div>
   <div class="h-pill"><strong>Tue &amp; Wed</strong><span>${esc(hours.tuesday)}</span></div>
   <div class="h-pill"><strong>Thursday</strong><span>${esc(hours.thursday)}</span></div>
   <div class="h-pill"><strong>Friday</strong><span>${esc(hours.friday)}</span></div>
@@ -54,7 +54,7 @@ const hoursPills = `
   <div class="h-pill"><strong>Sunday</strong><span>${esc(hours.sunday)}</span></div>
 `.trim();
 
-const hoursText = `Closed Monday<br>Tue &amp; Wed · ${esc(hours.tuesday)}<br>Thursday · ${esc(hours.thursday)}<br>Friday · ${esc(hours.friday)}<br>Sat · ${esc(hours.saturday)} &nbsp;|&nbsp; Sun · ${esc(hours.sunday)}`;
+const hoursText = `Monday · ${esc(hours.monday)}<br>Tue &amp; Wed · ${esc(hours.tuesday)}<br>Thursday · ${esc(hours.thursday)}<br>Friday · ${esc(hours.friday)}<br>Sat · ${esc(hours.saturday)} &nbsp;|&nbsp; Sun · ${esc(hours.sunday)}`;
 
 // ── Weekly events ──────────────────────────────────────────────────────────
 
@@ -119,6 +119,9 @@ const replacements = {
   '{{SOCIAL_YELP}}':       esc(social.yelp),
   '{{SOCIAL_MAPS}}':       esc(social.google_maps),
   '{{SOCIAL_SPOTIFY}}':    esc(social.spotify),
+
+  // Web3Forms
+  '{{WEB3FORMS_KEY}}':     'ffbb61d9-168b-47ab-9f1a-f547b4683ab3',
 
   // Hero images
   '{{HERO_BG}}':           esc(hero.bg_image),

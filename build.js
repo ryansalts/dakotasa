@@ -121,7 +121,7 @@ const replacements = {
   '{{SOCIAL_SPOTIFY}}':    esc(social.spotify),
 
   // Web3Forms
-  '{{WEB3FORMS_KEY}}':     'ffbb61d9-168b-47ab-9f1a-f547b4683ab3',
+  '{{WEB3FORMS_KEY}}':     '896fd111-5ea1-4352-9209-3e89c288dfae',
 
   // Hero images
   '{{HERO_BG}}':           esc(hero.bg_image),

@@ -1,7 +1,7 @@
 {
   "pizza": [
-    { "name": "Margherita", "desc": "Tomato sauce, fresh mozzarella, fresh basil. With a salad", "price": "$15.99" },
-    { "name": "Pepperoni", "desc": "Tomato sauce, pepperoni, fresh mozzarella. With a salad", "price": "$15.99" },
-    { "name": "Brisket Pizza", "desc": "House tomato sauce, tender brisket, fresh basil, mozzarella. With a salad", "price": "$17.99" }
+    { "name": "Margherita", "desc": "Tomato sauce, fresh mozzarella, fresh basil. With a salad", "price": "$13" },
+    { "name": "Pepperoni", "desc": "Tomato sauce, pepperoni, fresh mozzarella. With a salad", "price": "$15" },
+    { "name": "Brisket Pizza", "desc": "House tomato sauce, tender brisket, fresh basil, mozzarella. With a salad", "price": "$17" }
   ]
 }

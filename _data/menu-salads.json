@@ -1,7 +1,7 @@
 {
   "salads_tacos": [
-    { "name": "Just A Big Salad", "desc": "Mixed greens, baby tomatoes, red onion, croutons, house ranch, balsamic glaze", "price": "$10.99" },
-    { "name": "Wedge Salad", "desc": "Iceberg, bacon, cherry tomatoes, fried shallots, house ranch, blue cheese", "price": "$15.99" },
-    { "name": "Brisket Tacos", "desc": "Brisket, Cotija, chipotle crema, jalapeños, pickled onions on naan. With chips & salsa", "price": "$17.99" }
+    { "name": "Just A Big Salad", "desc": "Mixed greens, baby tomatoes, red onion, croutons, house ranch, balsamic glaze", "price": "$9" },
+    { "name": "Wedge Salad", "desc": "Iceberg, bacon, cherry tomatoes, fried shallots, house ranch, blue cheese", "price": "$13" },
+    { "name": "Tacos", "desc": "Brisket or Chicken, Cotija, chipotle crema, jalapeños, pickled onions on naan. With chips & salsa", "price": "$15" }
   ]
 }
